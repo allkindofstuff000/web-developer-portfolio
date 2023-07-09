@@ -7,6 +7,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    margin: 0 200px;
+
 }
 
 /* changing all font on nav */
@@ -57,4 +59,57 @@ nav a {
     font-weight: 700;
     line-height: normal;
 
+}
+
+/* header styles */
+.header {
+    background-color: #FFF8F3;
+}
+
+/* banner padding */
+.banner {
+    padding: 30px 30px 30px 160px;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner>div {
+    text-align: left;
+    /* Centers text within the div */
+}
+
+.banner2 {
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #181818;
+}
+
+.banner1 {
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner3 {
+    display: flex;
+    width: 585px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+body {
+    background-color: #FFF8F3;
+}
+
+.profile-pic {
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
+    
 }
